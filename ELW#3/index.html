@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Matei Răzvan Claudiu">
+    <meta name="keywords" content="fitness, gym, boxing, workout, nutrition, student, self-defense, weightlifting">
+    <meta name="description" content="Guerrilla Gym - Antrenamente de fitness, box și planuri nutriționale - Cel mai nou concept fitness din Cluj-Napoca">
+    <title>Guerrilla Gym</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-md bg-body-tertiary fixed-top" data-bs-theme="dark">
+  <div class="container-fluid">
+    <h1>
+    <a class="navbar-brand" href="index.html">
+      <img src="imagini/logo.png" alt="logo cu un bărbat care lovește sacul de box">
+        Guerrilla Gym</a>
+    </h1>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link" href="#descriere">Despre Noi</a>
+        <a class="nav-link" href="#antrenori">Antrenori</a>
+        <a class="nav-link" href="#abonamente">Abonamente</a>
+        <a class="nav-link" href="#rezultate">Rezultate</a>
+      </div>
+    </div>
+  </div>
+</nav>
+<div id="carousel-ELW3" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carousel-ELW3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carousel-ELW3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carousel-ELW3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carousel-ELW3" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carousel-ELW3" data-bs-slide-to="4" aria-label="Slide 5"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="7000">
+      <img src="imagini/carusel/carusel_1.jpg" class="d-block w-100" alt="bărbat care ridică o bară cu greutăți">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Ridică-ți limitele!</h5>
+        <p>Fiecare repetare te aduce mai aproape de scopul tău. În sala noastră limitele sunt doar începutul.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="6000">
+      <img src="imagini/carusel/carusel_2.jpg" class="d-block w-100" alt="femeie care se pregătește să ridice niște gantere">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Totul începe cu un pas mic</h5>
+        <p>Cu fiecare ganteră ridicată, îți construiești încrederea și determinarea.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="6000">
+      <img src="imagini/carusel/carusel_3.jpg" class="d-block w-100" alt="femei care ridică gantere">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Motivație în echipă!</h5>
+        <p>Alătură-te și progresează și tu alături de comunitatea noastră.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="6000">
+      <img src="imagini/carusel/carusel_4.jpg" class="d-block w-100" alt="multe greutăți de 28kg">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Echipamente profesionale</h5>
+        <p>Suntem pregătiți să îți susținem călătoria în lumea fitness-ului.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="6000">
+      <img src="imagini/carusel/carusel_5.jpg" class="d-block w-100" alt="poză din timpul unui curs de yoga cu oameni obosiți">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Forță pe toate planurile</h5>
+        <p>Antrenamentele funcționale îți pun corpul în mișcare completă. Ridică, împinge, învinge!</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carousel-ELW3" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carousel-ELW3" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+  <div id="descriere" class="container-fluid bg-dark">
+    <div class="row">
+      <div class="col-md-6">
+    <h2>Despre noi</h2>
+      <p>Guerrilla Gym este destinația ideală pentru performanțe în fitness și un stil de viață sănătos. Cu profesioniști dedicați și facilități moderne, oferim antrenamente de forță, box, clase de fitness și consiliere nutrițională personalizată.</p>
+      <p>Puneți accent pe profesionalism, disciplină și inovare, creăm un mediu sigur și motivant pentru ca fiecare membru să-și atingă obiectivele. Indiferent de experiență, Guerrilla Gym vă ajută să vă depășiți limitele și să obțineți rezultate durabile.</p>
+      </div>
+      <div class="col-md-6">
+      <h2>Facilități</h2>
+        <ul>
+          <li>Antrenori specializați</li>
+          <li>Echipamente moderne</li>
+          <li>Zonă de fitness cu echipamente cardio</li>
+          <li>Sală special amenajată pentru cursuri de box.</li>
+          <li>Nutriționiști calificați</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="antrenori" class="container-fluid bg-secondary">
+  <h2 class="centrat">Cunoaște Antrenorii</h2>
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4 d-flex align-items-stretch">
+        <div class="card text-center bg-dark">
+          <img src="imagini/alex_rusu.jpg" class="card-img-top" alt="poză cu antrenorul de box făcând exerciții cu greutăți">
+          <div class="card-body">
+            <h3 class="badge rounded-pill text-bg-danger">Box</h3>
+            <h4 class="card-title">Alex Rusu</h4>
+            <p class="card-text">Antrenor certificat în box, cu peste 10 ani de experiență competițională și 5 ani ca instructor. Este specializat în tehnici avansate de sparring.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex align-items-stretch">
+        <div class="card text-center bg-dark">
+          <img src="imagini/cristina_ionescu.jpg" class="card-img-top" alt="poză cu antrenoarea de fitness făcându-și încălzirea">
+          <div class="card-body">
+            <h3 class="badge rounded-pill text-bg-danger">Fitness</h3>
+            <h4 class="card-title">Cristina Ionescu</h4>
+            <p class="card-text">Antrenoare cu o experiență de peste 6 ani în fitness general și culturism, Cristina este certificată în personal training și biomecanica mișcării.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex align-items-stretch">
+        <div class="card text-center bg-dark">
+          <img src="imagini/elena_marin.jpg" class="card-img-top" alt="poză cu antrenoarea de fitness ținând niște greutăți în mână">
+          <div class="card-body">
+            <h3 class="badge rounded-pill text-bg-danger">Fitness</h3>
+            <h4 class="card-title">Elena Marin</h4>
+            <p class="card-text">Specialistă în fitness și nutriție, cu diplomă de la o academie de renume european. Elena este acreditată în programe de antrenament HIIT și pilates.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="abonamente" class="container-fluid bg-dark">
+  <h2 class="centrat">Abonamente</h2>
+  <div class="container">
+    <div class="card-group d-md-flex flex-md-row flex-column">
+    <div class="card bg-danger mb-3 mb-md-0">
+      <div class="card-body">
+        <h4 class="card-title">Pachetul Simplu</h4>
+        <span class="badge rounded-pill text-bg-dark">180RON/lună</span>
+        <p class="card-text">Oferă acces nelimitat la toate clasele de fitness și sala de forță, o ședință săptămânală cu unul din antrenorii noștrii și o ședință lunară cu unul din nutriționiștii noștrii.</p>
+        <p class="card-text">*Prețuri actualizate 2025</p>
+      </div>
+    </div>
+    <div class="card bg-danger mb-3 mb-md-0">
+      <div class="card-body">
+        <h4 class="card-title">Pachetul Fighter</h4>
+        <span class="badge rounded-pill text-bg-dark">210RON/lună</span>
+        <p class="card-text">Oferă acces la clasele de box și la sala de lupte, alături de două ședințe săptămânale cu unul din antrenorii noștrii.</p>
+        <p class="card-text">*Prețuri actualizate 2025</p>
+      </div>
+    </div>
+    <div class="card bg-danger mb-0">
+      <div class="card-body">
+        <h4 class="card-title">Pachetul Mixt</h4>
+        <span class="badge rounded-pill text-bg-dark">250RON/lună</span>
+        <p class="card-text">Oferă acces la toate facilitățile oferite de noi, împreună cu un plan nutrițional ce va fi actualizat săptămânal de unul din experții noștrii.</p>
+        <p class="card-text">*Prețuri actualizate 2025</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div id="rezultate" class="container-fluid bg-dark">
+  <h2 class="centrat">Rezultate</h2>
+  <p>Aici sunt doar câteva momente capturate din călătoria noastră în lumea fitness-ului.</p>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-12 mb-3">
+        <img src="imagini/galerie/gal_1.jpg" class="img-fluid w-100" alt="femeie aflată în mijlocul unui salt">
+      </div>
+      <div class="col-md-4 col-12 mb-3">
+        <img src="imagini/galerie/gal_2.jpg" class="img-fluid w-100" alt="bărbat care se antrenează pentru arte marțiale pe plajă">
+      </div>
+      <div class="col-md-4 col-12 mb-3">
+        <img src="imagini/galerie/gal_3.jpg" class="img-fluid w-100" alt="femeie care face exerciții pentru abdomen">
+        <p>Descoperă-ți forța interioară!</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-12 mb-3">
+        <img src="imagini/galerie/gal_4.jpg" class="img-fluid w-100" alt="un bărbat care își antrenează loviturile pentru kickboxing">
+        <!--https://www.pexels.com/photo/men-fighting-in-the-ring-2581662/-->
+        <p>Fiecare zi e o șansă pentru un nou început!</p>
+      </div>
+      <div class="col-md-4 col-12 mb-3">
+        <img src="imagini/galerie/gal_5.jpg" class="img-fluid w-100" alt="doi bărbați în mijlocul unui meci de box">
+        <!--https://www.pexels.com/photo/man-wearing-white-gloves-2628210/-->
+        <p>Locul unde disciplina întâlnește performanța!</p>
+      </div>
+      <div class="col-md-4 col-12 mb-3">
+        <img src="imagini/galerie/gal_6.jpg" class="img-fluid w-100" alt="poz făcută de jos cu un grup de oameni în mijlocul unui antrenament de yoga">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-12 mb-3">
+        <img src="imagini/galerie/gal_7.jpg" class="img-fluid w-100" alt="un grup de practicanți de arte marțiale">
+      </div>
+      <div class="col-md-4 col-12 mb-3">
+        <img src="imagini/galerie/gal_8.jpg" class="img-fluid w-100" alt="poză cu o persoană ce își măsoară talia și ține în mână o salată">
+      </div>
+      <div class="col-md-4 col-12 mb-3">
+        <img src="imagini/galerie/gal_9.jpg" class="img-fluid w-100" alt="două femei care fac yoga în natură">
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="bg-secondary py-3">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-4 text-md-start text-center mb-3 mb-md-0">
+          <h5>Contact</h5>
+          <p>Phone: 00262804</p>
+          <p>Email: guerrilla@gym.com</p>
+        </div>
+        <div class="col-md-4 text-center mb-3 mb-md-0">
+          <p>&copy; 2024 Guerrilla Gym</p>
+        </div>
+        <div class="col-md-4 text-md-end text-center">
+          <div class="social_media">
+            <a href="https://www.instagram.com/gymbeamro/" target="_blank"><img src="imagini/instagram.png" alt="logo Instagram"></a>
+            <a href="https://www.facebook.com/GymBeamRo/" target="_blank"><img src="imagini/facebook.png" alt="logo Facebook"></a>
+            <a href="https://x.com/gymshark" target="_blank"><img src="imagini/twitter.png" alt="logo Twitter"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
